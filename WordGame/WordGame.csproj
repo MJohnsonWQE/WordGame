@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D53CFE6-51B1-4773-BBEB-10558453C3A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WordGame</RootNamespace>
+    <AssemblyName>WordGame</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ukenglish.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\H-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\H-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\H-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\U-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\U-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\U-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\W-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\W-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\W-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Z-GREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Z-GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Z-YELLOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PLACEHOLDER.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
