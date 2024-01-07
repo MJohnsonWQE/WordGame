@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.ComponentModel.Com2Interop;
 
 namespace WordGame
 {
@@ -91,8 +94,10 @@ namespace WordGame
         static Image XGreen = WordGame.Properties.Resources.X_GREEN;
         static Image YGreen = WordGame.Properties.Resources.Y_GREEN;
         static Image ZGreen = WordGame.Properties.Resources.Z_GREEN;
+        static string stringWords = Properties.Resources.sgb_words;
 
         int i = 1;
+        int i2;
         int x = 1;
         int letter1 = 26;
         int letter2 = 26;
@@ -102,6 +107,8 @@ namespace WordGame
         int ranWord;
         int letterNum;
         int list = 0;
+        int wrongCheck;
+
         char stringLetter1;
         char stringLetter2;
         char stringLetter3;
@@ -114,7 +121,7 @@ namespace WordGame
         //Yellow ranges from 27-52
         //Green ranges from 53-78
         Image[] Letters = new Image[] { AGrey, BGrey, CGrey, DGrey, EGrey, FGrey, GGrey, HGrey, IGrey, JGrey, KGrey, LGrey, MGrey, NGrey, OGrey, PGrey, QGrey, RGrey, SGrey, TGrey, UGrey, VGrey, WGrey, XGrey, YGrey, ZGrey, Emp, AYellow, BYellow, CYellow, DYellow, EYellow, FYellow, GYellow, HYellow, IYellow, JYellow, KYellow, LYellow, MYellow, NYellow, OYellow, PYellow, QYellow, RYellow, SYellow, TYellow, UYellow, VYellow, WYellow, XYellow, YYellow, ZYellow, AGreen, BGreen, CGreen, DGreen, EGreen, FGreen, GGreen, HGreen, IGreen, JGreen, KGreen, LGreen, MGreen, NGreen, OGreen, PGreen, QGreen, RGreen, SGreen, TGreen, UGreen, VGreen, WGreen, XGreen, YGreen, ZGreen };
-        string[] words = new string[] {"hello", "world"};
+        string[] words = new string[] { "about", "above", "abuse", "actor", "acute", "admit", "adopt", "adult", "after", "again", "agent", "agree", "ahead", "alarm", "album", "alert", "alike", "alive", "allow", "alone", "along", "alter", "among", "anger", "angle", "angry", "apart", "apple", "apply", "arena", "argue", "arise", "array", "aside", "asset", "audio", "audit", "avoid", "award", "aware", "badly", "baker", "bases", "basic", "basis", "beach", "began", "begin", "begun", "being", "below", "bench", "billy", "birth", "black", "blame", "blind", "block", "blood", "board", "boost", "buyer", "china", "cover", "booth", "cable", "chose", "craft", "bound", "calif", "civil", "crash", "brain", "carry", "claim", "cream", "brand", "catch", "class", "crime", "bread", "cause", "clean", "cross", "break", "chain", "clear", "crowd", "breed", "chair", "click", "crown", "brief", "chart", "clock", "curve", "bring", "chase", "close", "cycle", "broad", "cheap", "coach", "daily", "broke", "check", "coast", "dance", "brown", "chest", "could", "dated", "build", "chief", "count", "dealt", "built", "child", "court", "death", "debut", "entry", "forth", "group", "delay", "equal", "forty", "grown", "depth", "error", "forum", "guard", "doing", "event", "found", "guess", "doubt", "every", "frame", "guest", "dozen", "exact", "frank", "guide", "draft", "exist", "fraud", "happy", "drama", "extra", "fresh", "harry", "drawn", "faith", "front", "heart", "dream", "false", "fruit", "heavy", "dress", "fault", "fully", "hence", "drill", "fibre", "funny", "night", "drink", "field", "giant", "horse", "drive", "fifth", "given", "hotel", "drove", "fifty", "glass", "house", "dying", "fight", "globe", "human", "eager", "final", "going", "ideal", "early", "first", "grace", "image", "earth", "fixed", "grade", "index", "eight", "flash", "grand", "inner", "elite", "fleet", "grant", "input", "empty", "floor", "grass", "issue", "enemy", "fluid", "great", "irony", "enjoy", "focus", "green", "juice", "enter", "force", "gross", "joint", "judge", "metal", "media", "newly", "known", "local", "might", "noise", "label", "logic", "minor", "north", "large", "loose", "minus", "noted", "laser", "lower", "mixed", "novel", "later", "lucky", "model", "nurse", "laugh", "lunch", "money", "occur", "layer", "lying", "loyal", "ledge", "month", "ocean", "onion", "learn", "magic", "moral", "offer", "lease", "major", "motor", "often", "least", "maker", "mount", "order", "leave", "march", "mouse", "other", "legal", "music", "mouth", "ought", "level", "match", "movie", "paint", "light", "mayor", "needs", "paper", "limit", "meant", "never", "party", "peace", "power", "radio", "round", "panel", "press", "raise", "route", "phase", "price", "range", "royal", "phone", "pride", "rapid", "rural", "photo", "prime", "ratio", "scale", "piece", "print", "reach", "scene", "pilot", "prior", "ready", "scope", "pitch", "prize", "refer", "score", "place", "proof", "right", "sense", "plain", "proud", "rival", "serve", "plane", "prove", "river", "seven", "plant", "queen", "quick", "shall", "plate", "sixth", "stand", "shape", "point", "quiet", "roman", "share", "pound", "quite", "rough", "sharp", "sheet", "spare", "style", "times", "shelf", "speak", "sugar", "tired", "shell", "speed", "suite", "title", "shift", "spend", "super", "today", "shirt", "spent", "sweet", "topic", "shock", "split", "table", "total", "shoot", "spoke", "taken", "touch", "short", "sport", "taste", "tough", "shown", "staff", "taxes", "tower", "sight", "stage", "teach", "track", "since", "stake", "teeth", "trade", "sixty", "start", "texas", "treat", "sized", "state", "thank", "trend", "skill", "steam", "theft", "trial", "sleep", "steel", "their", "tried", "slide", "stick", "theme", "tries", "small", "still", "there", "truck", "smart", "stock", "these", "truly", "smile", "stone", "thick", "trust", "smith", "stood", "thing", "truth", "smoke", "store", "think", "twice", "solid", "storm", "third", "under", "solve", "story", "those", "undue", "sorry", "strip", "three", "union", "sound", "stuck", "threw", "unity", "south", "study", "throw", "until", "space", "stuff", "tight", "upper", "upset", "whole", "waste", "wound", "urban", "whose", "watch", "write", "usage", "woman", "water", "wrong", "usual", "train", "wheel", "wrote", "valid", "world", "where", "yield", "value", "worry", "which", "young", "video", "worse", "while", "youth", "virus", "worst", "white", "worth", "visit", "would", "vital", "voice" };
         public Form1()
         {
             InitializeComponent();
@@ -567,134 +574,143 @@ namespace WordGame
             //Green ranges from 53-78
             if (letter5 != 26)
             {
-                i = 1;
-
                 stringLetter1 = (char)(letter1 + 97);
                 stringLetter2 = (char)(letter2 + 97);
                 stringLetter3 = (char)(letter3 + 97);
                 stringLetter4 = (char)(letter4 + 97);
                 stringLetter5 = (char)(letter5 + 97);
-
-                //Yellow Letters
-                if ((stringLetter1.ToString() == words[ranWord].Substring(1, 1) && stringLetter2.ToString() != words[ranWord].Substring(1, 1)) || (stringLetter1.ToString() == words[ranWord].Substring(2, 1) && stringLetter3.ToString() != words[ranWord].Substring(2, 1)) || (stringLetter1.ToString() == words[ranWord].Substring(3, 1) && stringLetter4.ToString() != words[ranWord].Substring(3, 1)) || (stringLetter1.ToString() == words[ranWord].Substring(4, 1) && stringLetter5.ToString() != words[ranWord].Substring(4, 1)))
-                {
-                    letter1 += 27;
-                    if (x == 1) { pictureBox1.Refresh(); pictureBox1.Update(); }
-                    if (x == 2) { pictureBox10.Refresh(); pictureBox10.Update(); }
-                    if (x == 3) { pictureBox15.Refresh(); pictureBox15.Update(); }
-                    if (x == 4) { pictureBox20.Refresh(); pictureBox20.Update(); }
-                    if (x == 5) { pictureBox25.Refresh(); pictureBox25.Update(); }
-                    letter1 -= 27;
-                }
-
-                if ((stringLetter2.ToString() == words[ranWord].Substring(0, 1) && stringLetter1.ToString() != words[ranWord].Substring(0, 1)) || (stringLetter2.ToString() == words[ranWord].Substring(2, 1) && stringLetter3.ToString() != words[ranWord].Substring(2, 1)) || (stringLetter2.ToString() == words[ranWord].Substring(3, 1) && stringLetter4.ToString() != words[ranWord].Substring(3, 1)) || (stringLetter2.ToString() == words[ranWord].Substring(4, 1) && stringLetter5.ToString() != words[ranWord].Substring(4, 1)))
-                {
-                    letter2 += 27;
-                    if (x == 1) { pictureBox2.Refresh(); pictureBox2.Update(); }
-                    if (x == 2) { pictureBox9.Refresh(); pictureBox9.Update(); }
-                    if (x == 3) { pictureBox14.Refresh(); pictureBox14.Update(); }
-                    if (x == 4) { pictureBox19.Refresh(); pictureBox19.Update(); }
-                    if (x == 5) { pictureBox24.Refresh(); pictureBox24.Update(); }
-                    letter2 -= 27;
-                }
-
-                if ((stringLetter3.ToString() == words[ranWord].Substring(0, 1) && stringLetter1.ToString() != words[ranWord].Substring(0, 1)) || (stringLetter3.ToString() == words[ranWord].Substring(1, 1) && stringLetter2.ToString() != words[ranWord].Substring(1, 1)) || (stringLetter3.ToString() == words[ranWord].Substring(3, 1) && stringLetter4.ToString() != words[ranWord].Substring(3, 1)) || (stringLetter3.ToString() == words[ranWord].Substring(4, 1) && stringLetter5.ToString() != words[ranWord].Substring(4, 1)))
-                {
-                    letter3 += 27;
-                    if (x == 1) { pictureBox3.Refresh(); pictureBox3.Update(); }
-                    if (x == 2) { pictureBox8.Refresh(); pictureBox8.Update(); }
-                    if (x == 3) { pictureBox13.Refresh(); pictureBox13.Update(); }
-                    if (x == 4) { pictureBox18.Refresh(); pictureBox18.Update(); }
-                    if (x == 5) { pictureBox23.Refresh(); pictureBox23.Update(); }
-                    letter3 -= 27;
-                }
-
-                if ((stringLetter4.ToString() == words[ranWord].Substring(0, 1) && stringLetter1.ToString() != words[ranWord].Substring(0, 1)) || (stringLetter4.ToString() == words[ranWord].Substring(1, 1) && stringLetter2.ToString() != words[ranWord].Substring(1, 1)) || (stringLetter4.ToString() == words[ranWord].Substring(2, 1) && stringLetter3.ToString() != words[ranWord].Substring(2, 1)) || (stringLetter4.ToString() == words[ranWord].Substring(4, 1) && stringLetter5.ToString() != words[ranWord].Substring(4, 1)))
-                {
-                    letter4 += 27;
-                    if (x == 1) { pictureBox4.Refresh(); pictureBox4.Update(); }
-                    if (x == 2) { pictureBox7.Refresh(); pictureBox7.Update(); }
-                    if (x == 3) { pictureBox12.Refresh(); pictureBox12.Update(); }
-                    if (x == 4) { pictureBox17.Refresh(); pictureBox17.Update(); }
-                    if (x == 5) { pictureBox22.Refresh(); pictureBox22.Update(); }
-                    letter4 -= 27;
-                }
-
-                if ((stringLetter5.ToString() == words[ranWord].Substring(0, 1) && stringLetter1.ToString() != words[ranWord].Substring(0, 1)) || (stringLetter5.ToString() == words[ranWord].Substring(1, 1) && stringLetter2.ToString() != words[ranWord].Substring(1, 1)) || (stringLetter5.ToString() == words[ranWord].Substring(2, 1) && stringLetter3.ToString() != words[ranWord].Substring(2, 1)) || (stringLetter5.ToString() == words[ranWord].Substring(3, 1) && stringLetter4.ToString() != words[ranWord].Substring(3, 1)))
-                {
-                    letter5 += 27;
-                    if (x == 1) { pictureBox5.Refresh(); pictureBox5.Update(); }
-                    if (x == 2) { pictureBox6.Refresh(); pictureBox6.Update(); }
-                    if (x == 3) { pictureBox11.Refresh(); pictureBox11.Update(); }
-                    if (x == 4) { pictureBox16.Refresh(); pictureBox16.Update(); }
-                    if (x == 5) { pictureBox21.Refresh(); pictureBox21.Update(); }
-                    letter5 -= 27;
-                }
-
-                //Green Letters
-                if (stringLetter1.ToString() == words[ranWord].Substring(0, 1))
-                {
-                    letter1 += 53;
-                    if (x == 1) { pictureBox1.Refresh(); pictureBox1.Update(); }
-                    if (x == 2) { pictureBox10.Refresh(); pictureBox10.Update(); }
-                    if (x == 3) { pictureBox15.Refresh(); pictureBox15.Update(); }
-                    if (x == 4) { pictureBox20.Refresh(); pictureBox20.Update(); }
-                    if (x == 5) { pictureBox25.Refresh(); pictureBox25.Update(); }
-                }
-
-                if (stringLetter2.ToString() == words[ranWord].Substring(1, 1))
-                {
-                    letter2 += 53;
-                    if (x == 1) { pictureBox2.Refresh(); pictureBox2.Update(); }
-                    if (x == 2) { pictureBox9.Refresh(); pictureBox9.Update(); }
-                    if (x == 3) { pictureBox14.Refresh(); pictureBox14.Update(); }
-                    if (x == 4) { pictureBox19.Refresh(); pictureBox19.Update(); }
-                    if (x == 5) { pictureBox24.Refresh(); pictureBox24.Update(); }
-                }
-
-                if (stringLetter3.ToString() == words[ranWord].Substring(2, 1))
-                {
-                    letter3 += 53;
-                    if (x == 1) { pictureBox3.Refresh(); pictureBox3.Update(); }
-                    if (x == 2) { pictureBox8.Refresh(); pictureBox8.Update(); }
-                    if (x == 3) { pictureBox13.Refresh(); pictureBox13.Update(); }
-                    if (x == 4) { pictureBox18.Refresh(); pictureBox18.Update(); }
-                    if (x == 5) { pictureBox23.Refresh(); pictureBox23.Update(); }
-                }
-
-                if (stringLetter4.ToString() == words[ranWord].Substring(3, 1))
-                {
-                    letter4 += 53;
-                    if (x == 1) { pictureBox4.Refresh(); pictureBox4.Update(); }
-                    if (x == 2) { pictureBox7.Refresh(); pictureBox7.Update(); }
-                    if (x == 3) { pictureBox12.Refresh(); pictureBox12.Update(); }
-                    if (x == 4) { pictureBox17.Refresh(); pictureBox17.Update(); }
-                    if (x == 5) { pictureBox22.Refresh(); pictureBox22.Update(); }
-                }
-
-                if (stringLetter5.ToString() == words[ranWord].Substring(4, 1))
-                {
-                    letter5 += 53;
-                    if (x == 1) { pictureBox5.Refresh(); pictureBox5.Update(); }
-                    if (x == 2) { pictureBox6.Refresh(); pictureBox6.Update(); }
-                    if (x == 3) { pictureBox11.Refresh(); pictureBox11.Update(); }
-                    if (x == 4) { pictureBox16.Refresh(); pictureBox16.Update(); }
-                    if (x == 5) { pictureBox21.Refresh(); pictureBox21.Update(); }
-                }
-
                 fullString = stringLetter1.ToString() + stringLetter2.ToString() + stringLetter3.ToString() + stringLetter4.ToString() + stringLetter5.ToString();
-                if (fullString == words[ranWord]) //{ pictureBox25.Refresh(); pictureBox25.Update(); } //Test to see if random word is found from array
-                {
-                    MessageBox.Show("You Win!");
-                    x++;
-                }
-                else { x++; }
 
-                letter1 = 26;
-                letter2 = 26;
-                letter3 = 26;
-                letter4 = 26;
-                letter5 = 26;
+                for (i2 = 0; i2 < words.Length; i2++)
+                {
+                    if (fullString == words[i2])
+                    {
+                        i = 1;
+
+                        //Yellow Letters
+                        if ((stringLetter1.ToString() == words[ranWord].Substring(1, 1) && stringLetter2.ToString() != words[ranWord].Substring(1, 1)) || (stringLetter1.ToString() == words[ranWord].Substring(2, 1) && stringLetter3.ToString() != words[ranWord].Substring(2, 1)) || (stringLetter1.ToString() == words[ranWord].Substring(3, 1) && stringLetter4.ToString() != words[ranWord].Substring(3, 1)) || (stringLetter1.ToString() == words[ranWord].Substring(4, 1) && stringLetter5.ToString() != words[ranWord].Substring(4, 1)))
+                        {
+                            letter1 += 27;
+                            if (x == 1) { pictureBox1.Refresh(); pictureBox1.Update(); }
+                            if (x == 2) { pictureBox10.Refresh(); pictureBox10.Update(); }
+                            if (x == 3) { pictureBox15.Refresh(); pictureBox15.Update(); }
+                            if (x == 4) { pictureBox20.Refresh(); pictureBox20.Update(); }
+                            if (x == 5) { pictureBox25.Refresh(); pictureBox25.Update(); }
+                            letter1 -= 27;
+                        }
+
+                        if ((stringLetter2.ToString() == words[ranWord].Substring(0, 1) && stringLetter1.ToString() != words[ranWord].Substring(0, 1)) || (stringLetter2.ToString() == words[ranWord].Substring(2, 1) && stringLetter3.ToString() != words[ranWord].Substring(2, 1)) || (stringLetter2.ToString() == words[ranWord].Substring(3, 1) && stringLetter4.ToString() != words[ranWord].Substring(3, 1)) || (stringLetter2.ToString() == words[ranWord].Substring(4, 1) && stringLetter5.ToString() != words[ranWord].Substring(4, 1)))
+                        {
+                            letter2 += 27;
+                            if (x == 1) { pictureBox2.Refresh(); pictureBox2.Update(); }
+                            if (x == 2) { pictureBox9.Refresh(); pictureBox9.Update(); }
+                            if (x == 3) { pictureBox14.Refresh(); pictureBox14.Update(); }
+                            if (x == 4) { pictureBox19.Refresh(); pictureBox19.Update(); }
+                            if (x == 5) { pictureBox24.Refresh(); pictureBox24.Update(); }
+                            letter2 -= 27;
+                        }
+
+                        if ((stringLetter3.ToString() == words[ranWord].Substring(0, 1) && stringLetter1.ToString() != words[ranWord].Substring(0, 1)) || (stringLetter3.ToString() == words[ranWord].Substring(1, 1) && stringLetter2.ToString() != words[ranWord].Substring(1, 1)) || (stringLetter3.ToString() == words[ranWord].Substring(3, 1) && stringLetter4.ToString() != words[ranWord].Substring(3, 1)) || (stringLetter3.ToString() == words[ranWord].Substring(4, 1) && stringLetter5.ToString() != words[ranWord].Substring(4, 1)))
+                        {
+                            letter3 += 27;
+                            if (x == 1) { pictureBox3.Refresh(); pictureBox3.Update(); }
+                            if (x == 2) { pictureBox8.Refresh(); pictureBox8.Update(); }
+                            if (x == 3) { pictureBox13.Refresh(); pictureBox13.Update(); }
+                            if (x == 4) { pictureBox18.Refresh(); pictureBox18.Update(); }
+                            if (x == 5) { pictureBox23.Refresh(); pictureBox23.Update(); }
+                            letter3 -= 27;
+                        }
+
+                        if ((stringLetter4.ToString() == words[ranWord].Substring(0, 1) && stringLetter1.ToString() != words[ranWord].Substring(0, 1)) || (stringLetter4.ToString() == words[ranWord].Substring(1, 1) && stringLetter2.ToString() != words[ranWord].Substring(1, 1)) || (stringLetter4.ToString() == words[ranWord].Substring(2, 1) && stringLetter3.ToString() != words[ranWord].Substring(2, 1)) || (stringLetter4.ToString() == words[ranWord].Substring(4, 1) && stringLetter5.ToString() != words[ranWord].Substring(4, 1)))
+                        {
+                            letter4 += 27;
+                            if (x == 1) { pictureBox4.Refresh(); pictureBox4.Update(); }
+                            if (x == 2) { pictureBox7.Refresh(); pictureBox7.Update(); }
+                            if (x == 3) { pictureBox12.Refresh(); pictureBox12.Update(); }
+                            if (x == 4) { pictureBox17.Refresh(); pictureBox17.Update(); }
+                            if (x == 5) { pictureBox22.Refresh(); pictureBox22.Update(); }
+                            letter4 -= 27;
+                        }
+
+                        if ((stringLetter5.ToString() == words[ranWord].Substring(0, 1) && stringLetter1.ToString() != words[ranWord].Substring(0, 1)) || (stringLetter5.ToString() == words[ranWord].Substring(1, 1) && stringLetter2.ToString() != words[ranWord].Substring(1, 1)) || (stringLetter5.ToString() == words[ranWord].Substring(2, 1) && stringLetter3.ToString() != words[ranWord].Substring(2, 1)) || (stringLetter5.ToString() == words[ranWord].Substring(3, 1) && stringLetter4.ToString() != words[ranWord].Substring(3, 1)))
+                        {
+                            letter5 += 27;
+                            if (x == 1) { pictureBox5.Refresh(); pictureBox5.Update(); }
+                            if (x == 2) { pictureBox6.Refresh(); pictureBox6.Update(); }
+                            if (x == 3) { pictureBox11.Refresh(); pictureBox11.Update(); }
+                            if (x == 4) { pictureBox16.Refresh(); pictureBox16.Update(); }
+                            if (x == 5) { pictureBox21.Refresh(); pictureBox21.Update(); }
+                            letter5 -= 27;
+                        }
+
+                        //Green Letters
+                        if (stringLetter1.ToString() == words[ranWord].Substring(0, 1))
+                        {
+                            letter1 += 53;
+                            if (x == 1) { pictureBox1.Refresh(); pictureBox1.Update(); }
+                            if (x == 2) { pictureBox10.Refresh(); pictureBox10.Update(); }
+                            if (x == 3) { pictureBox15.Refresh(); pictureBox15.Update(); }
+                            if (x == 4) { pictureBox20.Refresh(); pictureBox20.Update(); }
+                            if (x == 5) { pictureBox25.Refresh(); pictureBox25.Update(); }
+                        }
+
+                        if (stringLetter2.ToString() == words[ranWord].Substring(1, 1))
+                        {
+                            letter2 += 53;
+                            if (x == 1) { pictureBox2.Refresh(); pictureBox2.Update(); }
+                            if (x == 2) { pictureBox9.Refresh(); pictureBox9.Update(); }
+                            if (x == 3) { pictureBox14.Refresh(); pictureBox14.Update(); }
+                            if (x == 4) { pictureBox19.Refresh(); pictureBox19.Update(); }
+                            if (x == 5) { pictureBox24.Refresh(); pictureBox24.Update(); }
+                        }
+
+                        if (stringLetter3.ToString() == words[ranWord].Substring(2, 1))
+                        {
+                            letter3 += 53;
+                            if (x == 1) { pictureBox3.Refresh(); pictureBox3.Update(); }
+                            if (x == 2) { pictureBox8.Refresh(); pictureBox8.Update(); }
+                            if (x == 3) { pictureBox13.Refresh(); pictureBox13.Update(); }
+                            if (x == 4) { pictureBox18.Refresh(); pictureBox18.Update(); }
+                            if (x == 5) { pictureBox23.Refresh(); pictureBox23.Update(); }
+                        }
+
+                        if (stringLetter4.ToString() == words[ranWord].Substring(3, 1))
+                        {
+                            letter4 += 53;
+                            if (x == 1) { pictureBox4.Refresh(); pictureBox4.Update(); }
+                            if (x == 2) { pictureBox7.Refresh(); pictureBox7.Update(); }
+                            if (x == 3) { pictureBox12.Refresh(); pictureBox12.Update(); }
+                            if (x == 4) { pictureBox17.Refresh(); pictureBox17.Update(); }
+                            if (x == 5) { pictureBox22.Refresh(); pictureBox22.Update(); }
+                        }
+
+                        if (stringLetter5.ToString() == words[ranWord].Substring(4, 1))
+                        {
+                            letter5 += 53;
+                            if (x == 1) { pictureBox5.Refresh(); pictureBox5.Update(); }
+                            if (x == 2) { pictureBox6.Refresh(); pictureBox6.Update(); }
+                            if (x == 3) { pictureBox11.Refresh(); pictureBox11.Update(); }
+                            if (x == 4) { pictureBox16.Refresh(); pictureBox16.Update(); }
+                            if (x == 5) { pictureBox21.Refresh(); pictureBox21.Update(); }
+                        }
+
+                        if (fullString == words[ranWord]) //{ pictureBox25.Refresh(); pictureBox25.Update(); } //Test to see if random word is found from array
+                        {
+                            MessageBox.Show("You Win!");
+                            x+= 10;
+                        }
+                        else { x++; }
+
+                        letter1 = 26;
+                        letter2 = 26;
+                        letter3 = 26;
+                        letter4 = 26;
+                        letter5 = 26;
+                    }
+                    else { wrongCheck += 1; }
+                }
+                if (wrongCheck == words.Length && fullString != words[ranWord]) { MessageBox.Show("That word is not in the word list!"); }
+                wrongCheck = 0;
             }
         }
 

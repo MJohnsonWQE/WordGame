@@ -364,6 +364,7 @@
             // pictureBox26
             // 
             this.pictureBox26.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox26.BackgroundImage = global::WordGame.Properties.Resources.Q_KEYBOARD;
             this.pictureBox26.Location = new System.Drawing.Point(114, 510);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(35, 50);
@@ -374,6 +375,7 @@
             // pictureBox27
             // 
             this.pictureBox27.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox27.BackgroundImage = global::WordGame.Properties.Resources.W_KEYBOARD;
             this.pictureBox27.Location = new System.Drawing.Point(155, 510);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(35, 50);
@@ -384,6 +386,7 @@
             // pictureBox28
             // 
             this.pictureBox28.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox28.BackgroundImage = global::WordGame.Properties.Resources.E_KEYBOARD;
             this.pictureBox28.Location = new System.Drawing.Point(196, 510);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(35, 50);
@@ -394,6 +397,7 @@
             // pictureBox29
             // 
             this.pictureBox29.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox29.BackgroundImage = global::WordGame.Properties.Resources.R_KEYBOARD;
             this.pictureBox29.Location = new System.Drawing.Point(237, 510);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(35, 50);
@@ -404,6 +408,7 @@
             // pictureBox30
             // 
             this.pictureBox30.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox30.BackgroundImage = global::WordGame.Properties.Resources.T_KEYBOARD;
             this.pictureBox30.Location = new System.Drawing.Point(278, 510);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(35, 50);
@@ -414,6 +419,7 @@
             // pictureBox31
             // 
             this.pictureBox31.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox31.BackgroundImage = global::WordGame.Properties.Resources.Y_KEYBOARD;
             this.pictureBox31.Location = new System.Drawing.Point(319, 510);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(35, 50);
@@ -424,6 +430,7 @@
             // pictureBox32
             // 
             this.pictureBox32.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox32.BackgroundImage = global::WordGame.Properties.Resources.U_KEYBOARD;
             this.pictureBox32.Location = new System.Drawing.Point(360, 510);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(35, 50);
@@ -434,6 +441,7 @@
             // pictureBox33
             // 
             this.pictureBox33.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox33.BackgroundImage = global::WordGame.Properties.Resources.I_KEYBOARD;
             this.pictureBox33.Location = new System.Drawing.Point(401, 510);
             this.pictureBox33.Name = "pictureBox33";
             this.pictureBox33.Size = new System.Drawing.Size(35, 50);
@@ -444,6 +452,7 @@
             // pictureBox34
             // 
             this.pictureBox34.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox34.BackgroundImage = global::WordGame.Properties.Resources.O_KEYBOARD;
             this.pictureBox34.Location = new System.Drawing.Point(442, 510);
             this.pictureBox34.Name = "pictureBox34";
             this.pictureBox34.Size = new System.Drawing.Size(35, 50);
@@ -454,6 +463,7 @@
             // pictureBox35
             // 
             this.pictureBox35.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox35.BackgroundImage = global::WordGame.Properties.Resources.P_KEYBOARD;
             this.pictureBox35.Location = new System.Drawing.Point(483, 510);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(35, 50);
@@ -464,6 +474,7 @@
             // pictureBox36
             // 
             this.pictureBox36.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox36.BackgroundImage = global::WordGame.Properties.Resources.A_KEYBOARD;
             this.pictureBox36.Location = new System.Drawing.Point(135, 566);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(35, 50);
@@ -474,6 +485,7 @@
             // pictureBox37
             // 
             this.pictureBox37.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox37.BackgroundImage = global::WordGame.Properties.Resources.S_KEYBOARD;
             this.pictureBox37.Location = new System.Drawing.Point(176, 566);
             this.pictureBox37.Name = "pictureBox37";
             this.pictureBox37.Size = new System.Drawing.Size(35, 50);
@@ -484,6 +496,7 @@
             // pictureBox38
             // 
             this.pictureBox38.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox38.BackgroundImage = global::WordGame.Properties.Resources.D_KEYBOARD;
             this.pictureBox38.Location = new System.Drawing.Point(217, 566);
             this.pictureBox38.Name = "pictureBox38";
             this.pictureBox38.Size = new System.Drawing.Size(35, 50);
@@ -494,6 +507,7 @@
             // pictureBox39
             // 
             this.pictureBox39.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox39.BackgroundImage = global::WordGame.Properties.Resources.F_KEYBOARD;
             this.pictureBox39.Location = new System.Drawing.Point(258, 566);
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.Size = new System.Drawing.Size(35, 50);
@@ -504,6 +518,7 @@
             // pictureBox40
             // 
             this.pictureBox40.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox40.BackgroundImage = global::WordGame.Properties.Resources.G_KEYBOARD;
             this.pictureBox40.Location = new System.Drawing.Point(299, 566);
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.Size = new System.Drawing.Size(35, 50);
@@ -514,6 +529,7 @@
             // pictureBox41
             // 
             this.pictureBox41.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox41.BackgroundImage = global::WordGame.Properties.Resources.H_KEYBOARD;
             this.pictureBox41.Location = new System.Drawing.Point(340, 566);
             this.pictureBox41.Name = "pictureBox41";
             this.pictureBox41.Size = new System.Drawing.Size(35, 50);
@@ -524,6 +540,7 @@
             // pictureBox42
             // 
             this.pictureBox42.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox42.BackgroundImage = global::WordGame.Properties.Resources.J_KEYBOARD;
             this.pictureBox42.Location = new System.Drawing.Point(381, 566);
             this.pictureBox42.Name = "pictureBox42";
             this.pictureBox42.Size = new System.Drawing.Size(35, 50);
@@ -534,6 +551,7 @@
             // pictureBox43
             // 
             this.pictureBox43.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox43.BackgroundImage = global::WordGame.Properties.Resources.K_KEYBOARD;
             this.pictureBox43.Location = new System.Drawing.Point(422, 566);
             this.pictureBox43.Name = "pictureBox43";
             this.pictureBox43.Size = new System.Drawing.Size(35, 50);
@@ -544,6 +562,7 @@
             // pictureBox44
             // 
             this.pictureBox44.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox44.BackgroundImage = global::WordGame.Properties.Resources.L_KEYBOARD;
             this.pictureBox44.Location = new System.Drawing.Point(463, 566);
             this.pictureBox44.Name = "pictureBox44";
             this.pictureBox44.Size = new System.Drawing.Size(35, 50);
@@ -554,6 +573,7 @@
             // pictureBox45
             // 
             this.pictureBox45.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox45.BackgroundImage = global::WordGame.Properties.Resources.Z_KEYBOARD;
             this.pictureBox45.Location = new System.Drawing.Point(176, 622);
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.Size = new System.Drawing.Size(35, 50);
@@ -564,6 +584,7 @@
             // pictureBox46
             // 
             this.pictureBox46.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox46.BackgroundImage = global::WordGame.Properties.Resources.X_KEYBOARD;
             this.pictureBox46.Location = new System.Drawing.Point(217, 622);
             this.pictureBox46.Name = "pictureBox46";
             this.pictureBox46.Size = new System.Drawing.Size(35, 50);
@@ -574,6 +595,7 @@
             // pictureBox47
             // 
             this.pictureBox47.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox47.BackgroundImage = global::WordGame.Properties.Resources.C_KEYBOARD;
             this.pictureBox47.Location = new System.Drawing.Point(258, 622);
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.Size = new System.Drawing.Size(35, 50);
@@ -584,6 +606,7 @@
             // pictureBox48
             // 
             this.pictureBox48.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox48.BackgroundImage = global::WordGame.Properties.Resources.V_KEYBOARD;
             this.pictureBox48.Location = new System.Drawing.Point(299, 622);
             this.pictureBox48.Name = "pictureBox48";
             this.pictureBox48.Size = new System.Drawing.Size(35, 50);
@@ -594,6 +617,7 @@
             // pictureBox49
             // 
             this.pictureBox49.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox49.BackgroundImage = global::WordGame.Properties.Resources.B_KEYBOARD;
             this.pictureBox49.Location = new System.Drawing.Point(340, 622);
             this.pictureBox49.Name = "pictureBox49";
             this.pictureBox49.Size = new System.Drawing.Size(35, 50);
@@ -604,6 +628,7 @@
             // pictureBox50
             // 
             this.pictureBox50.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox50.BackgroundImage = global::WordGame.Properties.Resources.N_KEYBOARD;
             this.pictureBox50.Location = new System.Drawing.Point(381, 622);
             this.pictureBox50.Name = "pictureBox50";
             this.pictureBox50.Size = new System.Drawing.Size(35, 50);
@@ -614,6 +639,7 @@
             // pictureBox51
             // 
             this.pictureBox51.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox51.BackgroundImage = global::WordGame.Properties.Resources.M_KEYBOARD;
             this.pictureBox51.Location = new System.Drawing.Point(422, 622);
             this.pictureBox51.Name = "pictureBox51";
             this.pictureBox51.Size = new System.Drawing.Size(35, 50);
@@ -624,6 +650,7 @@
             // pictureBox52
             // 
             this.pictureBox52.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox52.BackgroundImage = global::WordGame.Properties.Resources.BACK_KEYBOARD;
             this.pictureBox52.Location = new System.Drawing.Point(100, 622);
             this.pictureBox52.Name = "pictureBox52";
             this.pictureBox52.Size = new System.Drawing.Size(70, 50);
@@ -634,6 +661,7 @@
             // pictureBox53
             // 
             this.pictureBox53.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox53.BackgroundImage = global::WordGame.Properties.Resources.ENTER_KEYBOARD;
             this.pictureBox53.Location = new System.Drawing.Point(464, 622);
             this.pictureBox53.Name = "pictureBox53";
             this.pictureBox53.Size = new System.Drawing.Size(70, 50);
@@ -700,8 +728,9 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Wordle";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

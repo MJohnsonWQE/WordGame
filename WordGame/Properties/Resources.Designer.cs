@@ -83,6 +83,16 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap A_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("A_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap A_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("A_YELLOW", resourceCulture);
@@ -113,9 +123,29 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap B_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("B_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap B_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("B_YELLOW", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BACK_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("BACK_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +166,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap C_GREY {
             get {
                 object obj = ResourceManager.GetObject("C_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap C_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("C_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,6 +213,16 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap D_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("D_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap D_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("D_YELLOW", resourceCulture);
@@ -203,9 +253,29 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap E_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("E_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap E_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("E_YELLOW", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ENTER_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("ENTER_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,6 +296,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap F_GREY {
             get {
                 object obj = ResourceManager.GetObject("F_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap F_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("F_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,6 +343,16 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap G_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("G_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap G_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("G_YELLOW", resourceCulture);
@@ -286,6 +376,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap H_GREY {
             get {
                 object obj = ResourceManager.GetObject("H_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap H_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("H_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,6 +423,16 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap I_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("I_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap I_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("I_YELLOW", resourceCulture);
@@ -346,6 +456,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap J_GREY {
             get {
                 object obj = ResourceManager.GetObject("J_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap J_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("J_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,6 +503,16 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap K_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("K_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap K_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("K_YELLOW", resourceCulture);
@@ -406,6 +536,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap L_GREY {
             get {
                 object obj = ResourceManager.GetObject("L_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap L_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("L_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -443,6 +583,16 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap M_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("M_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap M_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("M_YELLOW", resourceCulture);
@@ -466,6 +616,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap N_GREY {
             get {
                 object obj = ResourceManager.GetObject("N_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap N_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("N_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,6 +663,16 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap O_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("O_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap O_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("O_YELLOW", resourceCulture);
@@ -526,6 +696,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap P_GREY {
             get {
                 object obj = ResourceManager.GetObject("P_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap P_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("P_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -573,6 +753,16 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Q_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("Q_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Q_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("Q_YELLOW", resourceCulture);
@@ -596,6 +786,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap R_GREY {
             get {
                 object obj = ResourceManager.GetObject("R_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap R_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("R_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -633,10 +833,114 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap S_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("S_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap S_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("S_YELLOW", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to which
+        ///there
+        ///their
+        ///about
+        ///would
+        ///these
+        ///other
+        ///words
+        ///could
+        ///write
+        ///first
+        ///water
+        ///after
+        ///where
+        ///right
+        ///think
+        ///three
+        ///years
+        ///place
+        ///sound
+        ///great
+        ///again
+        ///still
+        ///every
+        ///small
+        ///found
+        ///those
+        ///never
+        ///under
+        ///might
+        ///while
+        ///house
+        ///world
+        ///below
+        ///asked
+        ///going
+        ///large
+        ///until
+        ///along
+        ///shall
+        ///being
+        ///often
+        ///earth
+        ///began
+        ///since
+        ///study
+        ///night
+        ///light
+        ///above
+        ///paper
+        ///parts
+        ///young
+        ///story
+        ///point
+        ///times
+        ///heard
+        ///whole
+        ///white
+        ///given
+        ///means
+        ///music
+        ///miles
+        ///thing
+        ///today
+        ///later
+        ///using
+        ///money
+        ///lines
+        ///order
+        ///group
+        ///among
+        ///learn
+        ///known
+        ///space
+        ///table
+        ///early
+        ///trees
+        ///short
+        ///hands
+        ///state
+        ///black
+        ///shown
+        ///stood
+        ///front
+        ///voice
+        ///ki [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string sgb_words {
+            get {
+                return ResourceManager.GetString("sgb_words", resourceCulture);
             }
         }
         
@@ -663,104 +967,20 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap T_YELLOW {
+        internal static System.Drawing.Bitmap T_KEYBOARD {
             get {
-                object obj = ResourceManager.GetObject("T_YELLOW", resourceCulture);
+                object obj = ResourceManager.GetObject("T_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to about
-        ///above
-        ///abuse
-        ///actor
-        ///acute
-        ///admit
-        ///adopt
-        ///adult
-        ///after
-        ///again
-        ///agent
-        ///agree
-        ///ahead
-        ///alarm
-        ///album
-        ///alert
-        ///alike
-        ///alive
-        ///allow
-        ///alone
-        ///along
-        ///alter
-        ///among
-        ///anger
-        ///Angle
-        ///angry
-        ///apart
-        ///apple
-        ///apply
-        ///arena
-        ///argue
-        ///arise
-        ///array
-        ///aside
-        ///asset
-        ///audio
-        ///audit
-        ///avoid
-        ///award
-        ///aware
-        ///badly
-        ///baker
-        ///bases
-        ///basic
-        ///basis
-        ///beach
-        ///began
-        ///begin
-        ///begun
-        ///being
-        ///below
-        ///bench
-        ///billy
-        ///birth
-        ///black
-        ///blame
-        ///blind
-        ///block
-        ///blood
-        ///board
-        ///boost
-        ///booth
-        ///bound
-        ///brain
-        ///brand
-        ///bread
-        ///break
-        ///breed
-        ///brief
-        ///bring
-        ///broad
-        ///broke
-        ///brown
-        ///build
-        ///built
-        ///buyer
-        ///cable
-        ///calif
-        ///carry
-        ///catch
-        ///cause
-        ///chain
-        ///chair
-        ///chart
-        ///chase
-        ///ch [rest of string was truncated]&quot;;.
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static string text {
+        internal static System.Drawing.Bitmap T_YELLOW {
             get {
-                return ResourceManager.GetString("text", resourceCulture);
+                object obj = ResourceManager.GetObject("T_YELLOW", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -780,6 +1000,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap U_GREY {
             get {
                 object obj = ResourceManager.GetObject("U_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap U_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("U_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -853,12 +1083,7 @@ namespace WordGame.Properties {
         ///abbotsbury
         ///abbott
         ///abbreviate
-        ///abbreviated
-        ///abbreviates
-        ///abbreviating
-        ///abbreviation
-        ///abbreviations
-        ///a [rest of string was truncated]&quot;;.
+        ///abbrevi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ukenglish {
             get {
@@ -882,6 +1107,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap V_GREY {
             get {
                 object obj = ResourceManager.GetObject("V_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap V_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("V_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -919,6 +1154,16 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap W_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("W_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap W_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("W_YELLOW", resourceCulture);
@@ -942,6 +1187,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap X_GREY {
             get {
                 object obj = ResourceManager.GetObject("X_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap X_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("X_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -979,6 +1234,16 @@ namespace WordGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Y_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("Y_KEYBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Y_YELLOW {
             get {
                 object obj = ResourceManager.GetObject("Y_YELLOW", resourceCulture);
@@ -1002,6 +1267,16 @@ namespace WordGame.Properties {
         internal static System.Drawing.Bitmap Z_GREY {
             get {
                 object obj = ResourceManager.GetObject("Z_GREY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Z_KEYBOARD {
+            get {
+                object obj = ResourceManager.GetObject("Z_KEYBOARD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

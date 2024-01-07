@@ -124,14 +124,23 @@
   <data name="A_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\A-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="A_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="A_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\A-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BACK_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BACK-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="B_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B-GREEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="B_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="B_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,6 +151,9 @@
   <data name="C_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\C-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="C_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="C_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\C-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,14 +163,23 @@
   <data name="D_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="D_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="D_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ENTER_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ENTER-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="E_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\E-GREEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="E_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\E-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="E_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\E-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,6 +190,9 @@
   <data name="F_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\F-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="F_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="F_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\F-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -177,6 +201,9 @@
   </data>
   <data name="G_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\G-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="G_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\G-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,6 +214,9 @@
   <data name="H_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\H-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="H_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="H_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\H-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -195,6 +225,9 @@
   </data>
   <data name="I_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\I-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\I-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="I_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\I-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,6 +238,9 @@
   <data name="J_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\J-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="J_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\J-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="J_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\J-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -213,6 +249,9 @@
   </data>
   <data name="K_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\K-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\K-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="K_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\K-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,6 +262,9 @@
   <data name="L_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\L-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="L_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="L_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\L-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -231,6 +273,9 @@
   </data>
   <data name="M_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\M-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="M_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\M-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,6 +286,9 @@
   <data name="N_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\N-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="N_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="N_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\N-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -249,6 +297,9 @@
   </data>
   <data name="O_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\O-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\O-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="O_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\O-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,6 +313,9 @@
   <data name="P_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\P-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="P_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="P_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\P-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -270,6 +324,9 @@
   </data>
   <data name="Q_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Q-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Q_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Q-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Q_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Q-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,14 +337,23 @@
   <data name="R_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="R_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="R_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sgb_words" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sgb-words.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="S_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\S-GREEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="S_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\S-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="S_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\S-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -297,6 +363,9 @@
   </data>
   <data name="T_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\T-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="T_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\T-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,6 +379,9 @@
   <data name="U_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\U-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="U_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\U-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="U_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\U-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -318,6 +390,9 @@
   </data>
   <data name="V_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\V-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="V_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\V-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -328,6 +403,9 @@
   <data name="W_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\W-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="W_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\W-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="W_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\W-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -336,6 +414,9 @@
   </data>
   <data name="X_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="X_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -346,6 +427,9 @@
   <data name="Y_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Y-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Y_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Y-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Y_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Y-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -354,6 +438,9 @@
   </data>
   <data name="Z_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Z-GREY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z_KEYBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Z-KEYBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Z_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Z-YELLOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

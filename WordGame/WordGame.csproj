@@ -320,5 +320,92 @@
   <ItemGroup>
     <None Include="Resources\PLACEHOLDER.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sgb-words.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\H-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\U-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\W-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Z-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ENTER-KEYBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK-KEYBOARD.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
