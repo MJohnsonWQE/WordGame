@@ -94,7 +94,6 @@ namespace WordGame
         static Image XGreen = WordGame.Properties.Resources.X_GREEN;
         static Image YGreen = WordGame.Properties.Resources.Y_GREEN;
         static Image ZGreen = WordGame.Properties.Resources.Z_GREEN;
-        static string stringWords = Properties.Resources.sgb_words;
 
         int i = 1;
         int i2;

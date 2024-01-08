@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -138,226 +139,176 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(90, 47);
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(180, 47);
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox2_Paint);
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(270, 47);
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox3_Paint);
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(360, 47);
+            resources.ApplyResources(this.pictureBox4, "pictureBox4");
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox4_Paint);
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(450, 47);
+            resources.ApplyResources(this.pictureBox5, "pictureBox5");
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox5_Paint);
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(450, 137);
+            resources.ApplyResources(this.pictureBox6, "pictureBox6");
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox6.TabIndex = 9;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox6_Paint);
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(360, 137);
+            resources.ApplyResources(this.pictureBox7, "pictureBox7");
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox7.TabIndex = 8;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox7_Paint);
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(270, 137);
+            resources.ApplyResources(this.pictureBox8, "pictureBox8");
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox8_Paint);
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(180, 137);
+            resources.ApplyResources(this.pictureBox9, "pictureBox9");
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox9.TabIndex = 6;
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox9_Paint);
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Location = new System.Drawing.Point(90, 137);
+            resources.ApplyResources(this.pictureBox10, "pictureBox10");
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox10.TabIndex = 5;
             this.pictureBox10.TabStop = false;
             this.pictureBox10.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox10_Paint);
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Location = new System.Drawing.Point(450, 227);
+            resources.ApplyResources(this.pictureBox11, "pictureBox11");
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox11.TabIndex = 14;
             this.pictureBox11.TabStop = false;
             this.pictureBox11.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox11_Paint);
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Location = new System.Drawing.Point(360, 227);
+            resources.ApplyResources(this.pictureBox12, "pictureBox12");
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox12.TabIndex = 13;
             this.pictureBox12.TabStop = false;
             this.pictureBox12.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox12_Paint);
             // 
             // pictureBox13
             // 
-            this.pictureBox13.Location = new System.Drawing.Point(270, 227);
+            resources.ApplyResources(this.pictureBox13, "pictureBox13");
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox13.TabIndex = 12;
             this.pictureBox13.TabStop = false;
             this.pictureBox13.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox13_Paint);
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Location = new System.Drawing.Point(180, 227);
+            resources.ApplyResources(this.pictureBox14, "pictureBox14");
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox14.TabIndex = 11;
             this.pictureBox14.TabStop = false;
             this.pictureBox14.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox14_Paint);
             // 
             // pictureBox15
             // 
-            this.pictureBox15.Location = new System.Drawing.Point(90, 227);
+            resources.ApplyResources(this.pictureBox15, "pictureBox15");
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox15.TabIndex = 10;
             this.pictureBox15.TabStop = false;
             this.pictureBox15.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox15_Paint);
             // 
             // pictureBox16
             // 
-            this.pictureBox16.Location = new System.Drawing.Point(450, 317);
+            resources.ApplyResources(this.pictureBox16, "pictureBox16");
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox16.TabIndex = 19;
             this.pictureBox16.TabStop = false;
             this.pictureBox16.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox16_Paint);
             // 
             // pictureBox17
             // 
-            this.pictureBox17.Location = new System.Drawing.Point(360, 317);
+            resources.ApplyResources(this.pictureBox17, "pictureBox17");
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox17.TabIndex = 18;
             this.pictureBox17.TabStop = false;
             this.pictureBox17.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox17_Paint);
             // 
             // pictureBox18
             // 
-            this.pictureBox18.Location = new System.Drawing.Point(270, 317);
+            resources.ApplyResources(this.pictureBox18, "pictureBox18");
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox18.TabIndex = 17;
             this.pictureBox18.TabStop = false;
             this.pictureBox18.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox18_Paint);
             // 
             // pictureBox19
             // 
-            this.pictureBox19.Location = new System.Drawing.Point(180, 317);
+            resources.ApplyResources(this.pictureBox19, "pictureBox19");
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox19.TabIndex = 16;
             this.pictureBox19.TabStop = false;
             this.pictureBox19.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox19_Paint);
             // 
             // pictureBox20
             // 
-            this.pictureBox20.Location = new System.Drawing.Point(90, 317);
+            resources.ApplyResources(this.pictureBox20, "pictureBox20");
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox20.TabIndex = 15;
             this.pictureBox20.TabStop = false;
             this.pictureBox20.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox20_Paint);
             // 
             // pictureBox21
             // 
-            this.pictureBox21.Location = new System.Drawing.Point(450, 407);
+            resources.ApplyResources(this.pictureBox21, "pictureBox21");
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox21.TabIndex = 24;
             this.pictureBox21.TabStop = false;
             this.pictureBox21.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox21_Paint);
             // 
             // pictureBox22
             // 
-            this.pictureBox22.Location = new System.Drawing.Point(360, 407);
+            resources.ApplyResources(this.pictureBox22, "pictureBox22");
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox22.TabIndex = 23;
             this.pictureBox22.TabStop = false;
             this.pictureBox22.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox22_Paint);
             // 
             // pictureBox23
             // 
-            this.pictureBox23.Location = new System.Drawing.Point(270, 407);
+            resources.ApplyResources(this.pictureBox23, "pictureBox23");
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox23.TabIndex = 22;
             this.pictureBox23.TabStop = false;
             this.pictureBox23.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox23_Paint);
             // 
             // pictureBox24
             // 
-            this.pictureBox24.Location = new System.Drawing.Point(180, 407);
+            resources.ApplyResources(this.pictureBox24, "pictureBox24");
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox24.TabIndex = 21;
             this.pictureBox24.TabStop = false;
             this.pictureBox24.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox24_Paint);
             // 
             // pictureBox25
             // 
-            this.pictureBox25.Location = new System.Drawing.Point(90, 407);
+            resources.ApplyResources(this.pictureBox25, "pictureBox25");
             this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox25.TabIndex = 20;
             this.pictureBox25.TabStop = false;
             this.pictureBox25.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox25_Paint);
             // 
@@ -365,10 +316,8 @@
             // 
             this.pictureBox26.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox26.BackgroundImage = global::WordGame.Properties.Resources.Q_KEYBOARD;
-            this.pictureBox26.Location = new System.Drawing.Point(114, 510);
+            resources.ApplyResources(this.pictureBox26, "pictureBox26");
             this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox26.TabIndex = 25;
             this.pictureBox26.TabStop = false;
             this.pictureBox26.Click += new System.EventHandler(this.pictureBox26_Click);
             // 
@@ -376,10 +325,8 @@
             // 
             this.pictureBox27.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox27.BackgroundImage = global::WordGame.Properties.Resources.W_KEYBOARD;
-            this.pictureBox27.Location = new System.Drawing.Point(155, 510);
+            resources.ApplyResources(this.pictureBox27, "pictureBox27");
             this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox27.TabIndex = 26;
             this.pictureBox27.TabStop = false;
             this.pictureBox27.Click += new System.EventHandler(this.pictureBox27_Click);
             // 
@@ -387,10 +334,8 @@
             // 
             this.pictureBox28.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox28.BackgroundImage = global::WordGame.Properties.Resources.E_KEYBOARD;
-            this.pictureBox28.Location = new System.Drawing.Point(196, 510);
+            resources.ApplyResources(this.pictureBox28, "pictureBox28");
             this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox28.TabIndex = 27;
             this.pictureBox28.TabStop = false;
             this.pictureBox28.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
@@ -398,10 +343,8 @@
             // 
             this.pictureBox29.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox29.BackgroundImage = global::WordGame.Properties.Resources.R_KEYBOARD;
-            this.pictureBox29.Location = new System.Drawing.Point(237, 510);
+            resources.ApplyResources(this.pictureBox29, "pictureBox29");
             this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox29.TabIndex = 28;
             this.pictureBox29.TabStop = false;
             this.pictureBox29.Click += new System.EventHandler(this.pictureBox29_Click);
             // 
@@ -409,10 +352,8 @@
             // 
             this.pictureBox30.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox30.BackgroundImage = global::WordGame.Properties.Resources.T_KEYBOARD;
-            this.pictureBox30.Location = new System.Drawing.Point(278, 510);
+            resources.ApplyResources(this.pictureBox30, "pictureBox30");
             this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox30.TabIndex = 29;
             this.pictureBox30.TabStop = false;
             this.pictureBox30.Click += new System.EventHandler(this.pictureBox30_Click);
             // 
@@ -420,10 +361,8 @@
             // 
             this.pictureBox31.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox31.BackgroundImage = global::WordGame.Properties.Resources.Y_KEYBOARD;
-            this.pictureBox31.Location = new System.Drawing.Point(319, 510);
+            resources.ApplyResources(this.pictureBox31, "pictureBox31");
             this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox31.TabIndex = 30;
             this.pictureBox31.TabStop = false;
             this.pictureBox31.Click += new System.EventHandler(this.pictureBox31_Click);
             // 
@@ -431,10 +370,8 @@
             // 
             this.pictureBox32.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox32.BackgroundImage = global::WordGame.Properties.Resources.U_KEYBOARD;
-            this.pictureBox32.Location = new System.Drawing.Point(360, 510);
+            resources.ApplyResources(this.pictureBox32, "pictureBox32");
             this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox32.TabIndex = 31;
             this.pictureBox32.TabStop = false;
             this.pictureBox32.Click += new System.EventHandler(this.pictureBox32_Click);
             // 
@@ -442,10 +379,8 @@
             // 
             this.pictureBox33.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox33.BackgroundImage = global::WordGame.Properties.Resources.I_KEYBOARD;
-            this.pictureBox33.Location = new System.Drawing.Point(401, 510);
+            resources.ApplyResources(this.pictureBox33, "pictureBox33");
             this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox33.TabIndex = 32;
             this.pictureBox33.TabStop = false;
             this.pictureBox33.Click += new System.EventHandler(this.pictureBox33_Click);
             // 
@@ -453,10 +388,8 @@
             // 
             this.pictureBox34.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox34.BackgroundImage = global::WordGame.Properties.Resources.O_KEYBOARD;
-            this.pictureBox34.Location = new System.Drawing.Point(442, 510);
+            resources.ApplyResources(this.pictureBox34, "pictureBox34");
             this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox34.TabIndex = 33;
             this.pictureBox34.TabStop = false;
             this.pictureBox34.Click += new System.EventHandler(this.pictureBox34_Click);
             // 
@@ -464,10 +397,8 @@
             // 
             this.pictureBox35.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox35.BackgroundImage = global::WordGame.Properties.Resources.P_KEYBOARD;
-            this.pictureBox35.Location = new System.Drawing.Point(483, 510);
+            resources.ApplyResources(this.pictureBox35, "pictureBox35");
             this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox35.TabIndex = 34;
             this.pictureBox35.TabStop = false;
             this.pictureBox35.Click += new System.EventHandler(this.pictureBox35_Click);
             // 
@@ -475,10 +406,8 @@
             // 
             this.pictureBox36.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox36.BackgroundImage = global::WordGame.Properties.Resources.A_KEYBOARD;
-            this.pictureBox36.Location = new System.Drawing.Point(135, 566);
+            resources.ApplyResources(this.pictureBox36, "pictureBox36");
             this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox36.TabIndex = 35;
             this.pictureBox36.TabStop = false;
             this.pictureBox36.Click += new System.EventHandler(this.pictureBox36_Click);
             // 
@@ -486,10 +415,8 @@
             // 
             this.pictureBox37.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox37.BackgroundImage = global::WordGame.Properties.Resources.S_KEYBOARD;
-            this.pictureBox37.Location = new System.Drawing.Point(176, 566);
+            resources.ApplyResources(this.pictureBox37, "pictureBox37");
             this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox37.TabIndex = 36;
             this.pictureBox37.TabStop = false;
             this.pictureBox37.Click += new System.EventHandler(this.pictureBox37_Click);
             // 
@@ -497,10 +424,8 @@
             // 
             this.pictureBox38.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox38.BackgroundImage = global::WordGame.Properties.Resources.D_KEYBOARD;
-            this.pictureBox38.Location = new System.Drawing.Point(217, 566);
+            resources.ApplyResources(this.pictureBox38, "pictureBox38");
             this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox38.TabIndex = 37;
             this.pictureBox38.TabStop = false;
             this.pictureBox38.Click += new System.EventHandler(this.pictureBox38_Click);
             // 
@@ -508,10 +433,8 @@
             // 
             this.pictureBox39.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox39.BackgroundImage = global::WordGame.Properties.Resources.F_KEYBOARD;
-            this.pictureBox39.Location = new System.Drawing.Point(258, 566);
+            resources.ApplyResources(this.pictureBox39, "pictureBox39");
             this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox39.TabIndex = 38;
             this.pictureBox39.TabStop = false;
             this.pictureBox39.Click += new System.EventHandler(this.pictureBox39_Click);
             // 
@@ -519,10 +442,8 @@
             // 
             this.pictureBox40.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox40.BackgroundImage = global::WordGame.Properties.Resources.G_KEYBOARD;
-            this.pictureBox40.Location = new System.Drawing.Point(299, 566);
+            resources.ApplyResources(this.pictureBox40, "pictureBox40");
             this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox40.TabIndex = 39;
             this.pictureBox40.TabStop = false;
             this.pictureBox40.Click += new System.EventHandler(this.pictureBox40_Click);
             // 
@@ -530,10 +451,8 @@
             // 
             this.pictureBox41.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox41.BackgroundImage = global::WordGame.Properties.Resources.H_KEYBOARD;
-            this.pictureBox41.Location = new System.Drawing.Point(340, 566);
+            resources.ApplyResources(this.pictureBox41, "pictureBox41");
             this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox41.TabIndex = 40;
             this.pictureBox41.TabStop = false;
             this.pictureBox41.Click += new System.EventHandler(this.pictureBox41_Click);
             // 
@@ -541,10 +460,8 @@
             // 
             this.pictureBox42.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox42.BackgroundImage = global::WordGame.Properties.Resources.J_KEYBOARD;
-            this.pictureBox42.Location = new System.Drawing.Point(381, 566);
+            resources.ApplyResources(this.pictureBox42, "pictureBox42");
             this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox42.TabIndex = 41;
             this.pictureBox42.TabStop = false;
             this.pictureBox42.Click += new System.EventHandler(this.pictureBox42_Click);
             // 
@@ -552,10 +469,8 @@
             // 
             this.pictureBox43.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox43.BackgroundImage = global::WordGame.Properties.Resources.K_KEYBOARD;
-            this.pictureBox43.Location = new System.Drawing.Point(422, 566);
+            resources.ApplyResources(this.pictureBox43, "pictureBox43");
             this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox43.TabIndex = 42;
             this.pictureBox43.TabStop = false;
             this.pictureBox43.Click += new System.EventHandler(this.pictureBox43_Click);
             // 
@@ -563,10 +478,8 @@
             // 
             this.pictureBox44.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox44.BackgroundImage = global::WordGame.Properties.Resources.L_KEYBOARD;
-            this.pictureBox44.Location = new System.Drawing.Point(463, 566);
+            resources.ApplyResources(this.pictureBox44, "pictureBox44");
             this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox44.TabIndex = 43;
             this.pictureBox44.TabStop = false;
             this.pictureBox44.Click += new System.EventHandler(this.pictureBox44_Click);
             // 
@@ -574,10 +487,8 @@
             // 
             this.pictureBox45.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox45.BackgroundImage = global::WordGame.Properties.Resources.Z_KEYBOARD;
-            this.pictureBox45.Location = new System.Drawing.Point(176, 622);
+            resources.ApplyResources(this.pictureBox45, "pictureBox45");
             this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox45.TabIndex = 44;
             this.pictureBox45.TabStop = false;
             this.pictureBox45.Click += new System.EventHandler(this.pictureBox45_Click);
             // 
@@ -585,10 +496,8 @@
             // 
             this.pictureBox46.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox46.BackgroundImage = global::WordGame.Properties.Resources.X_KEYBOARD;
-            this.pictureBox46.Location = new System.Drawing.Point(217, 622);
+            resources.ApplyResources(this.pictureBox46, "pictureBox46");
             this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox46.TabIndex = 45;
             this.pictureBox46.TabStop = false;
             this.pictureBox46.Click += new System.EventHandler(this.pictureBox46_Click);
             // 
@@ -596,10 +505,8 @@
             // 
             this.pictureBox47.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox47.BackgroundImage = global::WordGame.Properties.Resources.C_KEYBOARD;
-            this.pictureBox47.Location = new System.Drawing.Point(258, 622);
+            resources.ApplyResources(this.pictureBox47, "pictureBox47");
             this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox47.TabIndex = 46;
             this.pictureBox47.TabStop = false;
             this.pictureBox47.Click += new System.EventHandler(this.pictureBox47_Click);
             // 
@@ -607,10 +514,8 @@
             // 
             this.pictureBox48.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox48.BackgroundImage = global::WordGame.Properties.Resources.V_KEYBOARD;
-            this.pictureBox48.Location = new System.Drawing.Point(299, 622);
+            resources.ApplyResources(this.pictureBox48, "pictureBox48");
             this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox48.TabIndex = 47;
             this.pictureBox48.TabStop = false;
             this.pictureBox48.Click += new System.EventHandler(this.pictureBox48_Click);
             // 
@@ -618,10 +523,8 @@
             // 
             this.pictureBox49.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox49.BackgroundImage = global::WordGame.Properties.Resources.B_KEYBOARD;
-            this.pictureBox49.Location = new System.Drawing.Point(340, 622);
+            resources.ApplyResources(this.pictureBox49, "pictureBox49");
             this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox49.TabIndex = 48;
             this.pictureBox49.TabStop = false;
             this.pictureBox49.Click += new System.EventHandler(this.pictureBox49_Click);
             // 
@@ -629,10 +532,8 @@
             // 
             this.pictureBox50.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox50.BackgroundImage = global::WordGame.Properties.Resources.N_KEYBOARD;
-            this.pictureBox50.Location = new System.Drawing.Point(381, 622);
+            resources.ApplyResources(this.pictureBox50, "pictureBox50");
             this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox50.TabIndex = 49;
             this.pictureBox50.TabStop = false;
             this.pictureBox50.Click += new System.EventHandler(this.pictureBox50_Click);
             // 
@@ -640,10 +541,8 @@
             // 
             this.pictureBox51.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox51.BackgroundImage = global::WordGame.Properties.Resources.M_KEYBOARD;
-            this.pictureBox51.Location = new System.Drawing.Point(422, 622);
+            resources.ApplyResources(this.pictureBox51, "pictureBox51");
             this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(35, 50);
-            this.pictureBox51.TabIndex = 50;
             this.pictureBox51.TabStop = false;
             this.pictureBox51.Click += new System.EventHandler(this.pictureBox51_Click);
             // 
@@ -651,10 +550,8 @@
             // 
             this.pictureBox52.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox52.BackgroundImage = global::WordGame.Properties.Resources.BACK_KEYBOARD;
-            this.pictureBox52.Location = new System.Drawing.Point(100, 622);
+            resources.ApplyResources(this.pictureBox52, "pictureBox52");
             this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(70, 50);
-            this.pictureBox52.TabIndex = 51;
             this.pictureBox52.TabStop = false;
             this.pictureBox52.Click += new System.EventHandler(this.pictureBox52_Click);
             // 
@@ -662,19 +559,16 @@
             // 
             this.pictureBox53.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox53.BackgroundImage = global::WordGame.Properties.Resources.ENTER_KEYBOARD;
-            this.pictureBox53.Location = new System.Drawing.Point(464, 622);
+            resources.ApplyResources(this.pictureBox53, "pictureBox53");
             this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Size = new System.Drawing.Size(70, 50);
-            this.pictureBox53.TabIndex = 52;
             this.pictureBox53.TabStop = false;
             this.pictureBox53.Click += new System.EventHandler(this.pictureBox53_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(628, 680);
             this.Controls.Add(this.pictureBox53);
             this.Controls.Add(this.pictureBox52);
             this.Controls.Add(this.pictureBox51);
@@ -730,7 +624,6 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
-            this.Text = "Wordle";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
