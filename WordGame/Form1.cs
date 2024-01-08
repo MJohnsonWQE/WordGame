@@ -698,6 +698,8 @@ namespace WordGame
                             MessageBox.Show("You Win!");
                             x+= 10;
                         }
+
+                        else if (fullString != words[ranWord] && x == 5) {MessageBox.Show(string.Format ("The word was: {0}", words[ranWord]), "Game Over!"); }
                         else { x++; }
 
                         letter1 = 26;
