@@ -314,252 +314,252 @@
             // 
             // pictureBox26
             // 
+            resources.ApplyResources(this.pictureBox26, "pictureBox26");
             this.pictureBox26.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox26.BackgroundImage = global::WordGame.Properties.Resources.Q_KEYBOARD;
-            resources.ApplyResources(this.pictureBox26, "pictureBox26");
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.TabStop = false;
             this.pictureBox26.Click += new System.EventHandler(this.pictureBox26_Click);
             // 
             // pictureBox27
             // 
+            resources.ApplyResources(this.pictureBox27, "pictureBox27");
             this.pictureBox27.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox27.BackgroundImage = global::WordGame.Properties.Resources.W_KEYBOARD;
-            resources.ApplyResources(this.pictureBox27, "pictureBox27");
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.TabStop = false;
             this.pictureBox27.Click += new System.EventHandler(this.pictureBox27_Click);
             // 
             // pictureBox28
             // 
+            resources.ApplyResources(this.pictureBox28, "pictureBox28");
             this.pictureBox28.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox28.BackgroundImage = global::WordGame.Properties.Resources.E_KEYBOARD;
-            resources.ApplyResources(this.pictureBox28, "pictureBox28");
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.TabStop = false;
             this.pictureBox28.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox29
             // 
+            resources.ApplyResources(this.pictureBox29, "pictureBox29");
             this.pictureBox29.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox29.BackgroundImage = global::WordGame.Properties.Resources.R_KEYBOARD;
-            resources.ApplyResources(this.pictureBox29, "pictureBox29");
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.TabStop = false;
             this.pictureBox29.Click += new System.EventHandler(this.pictureBox29_Click);
             // 
             // pictureBox30
             // 
+            resources.ApplyResources(this.pictureBox30, "pictureBox30");
             this.pictureBox30.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox30.BackgroundImage = global::WordGame.Properties.Resources.T_KEYBOARD;
-            resources.ApplyResources(this.pictureBox30, "pictureBox30");
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.TabStop = false;
             this.pictureBox30.Click += new System.EventHandler(this.pictureBox30_Click);
             // 
             // pictureBox31
             // 
+            resources.ApplyResources(this.pictureBox31, "pictureBox31");
             this.pictureBox31.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox31.BackgroundImage = global::WordGame.Properties.Resources.Y_KEYBOARD;
-            resources.ApplyResources(this.pictureBox31, "pictureBox31");
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.TabStop = false;
             this.pictureBox31.Click += new System.EventHandler(this.pictureBox31_Click);
             // 
             // pictureBox32
             // 
+            resources.ApplyResources(this.pictureBox32, "pictureBox32");
             this.pictureBox32.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox32.BackgroundImage = global::WordGame.Properties.Resources.U_KEYBOARD;
-            resources.ApplyResources(this.pictureBox32, "pictureBox32");
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.TabStop = false;
             this.pictureBox32.Click += new System.EventHandler(this.pictureBox32_Click);
             // 
             // pictureBox33
             // 
+            resources.ApplyResources(this.pictureBox33, "pictureBox33");
             this.pictureBox33.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox33.BackgroundImage = global::WordGame.Properties.Resources.I_KEYBOARD;
-            resources.ApplyResources(this.pictureBox33, "pictureBox33");
             this.pictureBox33.Name = "pictureBox33";
             this.pictureBox33.TabStop = false;
             this.pictureBox33.Click += new System.EventHandler(this.pictureBox33_Click);
             // 
             // pictureBox34
             // 
+            resources.ApplyResources(this.pictureBox34, "pictureBox34");
             this.pictureBox34.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox34.BackgroundImage = global::WordGame.Properties.Resources.O_KEYBOARD;
-            resources.ApplyResources(this.pictureBox34, "pictureBox34");
             this.pictureBox34.Name = "pictureBox34";
             this.pictureBox34.TabStop = false;
             this.pictureBox34.Click += new System.EventHandler(this.pictureBox34_Click);
             // 
             // pictureBox35
             // 
+            resources.ApplyResources(this.pictureBox35, "pictureBox35");
             this.pictureBox35.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox35.BackgroundImage = global::WordGame.Properties.Resources.P_KEYBOARD;
-            resources.ApplyResources(this.pictureBox35, "pictureBox35");
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.TabStop = false;
             this.pictureBox35.Click += new System.EventHandler(this.pictureBox35_Click);
             // 
             // pictureBox36
             // 
+            resources.ApplyResources(this.pictureBox36, "pictureBox36");
             this.pictureBox36.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox36.BackgroundImage = global::WordGame.Properties.Resources.A_KEYBOARD;
-            resources.ApplyResources(this.pictureBox36, "pictureBox36");
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.TabStop = false;
             this.pictureBox36.Click += new System.EventHandler(this.pictureBox36_Click);
             // 
             // pictureBox37
             // 
+            resources.ApplyResources(this.pictureBox37, "pictureBox37");
             this.pictureBox37.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox37.BackgroundImage = global::WordGame.Properties.Resources.S_KEYBOARD;
-            resources.ApplyResources(this.pictureBox37, "pictureBox37");
             this.pictureBox37.Name = "pictureBox37";
             this.pictureBox37.TabStop = false;
             this.pictureBox37.Click += new System.EventHandler(this.pictureBox37_Click);
             // 
             // pictureBox38
             // 
+            resources.ApplyResources(this.pictureBox38, "pictureBox38");
             this.pictureBox38.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox38.BackgroundImage = global::WordGame.Properties.Resources.D_KEYBOARD;
-            resources.ApplyResources(this.pictureBox38, "pictureBox38");
             this.pictureBox38.Name = "pictureBox38";
             this.pictureBox38.TabStop = false;
             this.pictureBox38.Click += new System.EventHandler(this.pictureBox38_Click);
             // 
             // pictureBox39
             // 
+            resources.ApplyResources(this.pictureBox39, "pictureBox39");
             this.pictureBox39.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox39.BackgroundImage = global::WordGame.Properties.Resources.F_KEYBOARD;
-            resources.ApplyResources(this.pictureBox39, "pictureBox39");
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.TabStop = false;
             this.pictureBox39.Click += new System.EventHandler(this.pictureBox39_Click);
             // 
             // pictureBox40
             // 
+            resources.ApplyResources(this.pictureBox40, "pictureBox40");
             this.pictureBox40.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox40.BackgroundImage = global::WordGame.Properties.Resources.G_KEYBOARD;
-            resources.ApplyResources(this.pictureBox40, "pictureBox40");
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.TabStop = false;
             this.pictureBox40.Click += new System.EventHandler(this.pictureBox40_Click);
             // 
             // pictureBox41
             // 
+            resources.ApplyResources(this.pictureBox41, "pictureBox41");
             this.pictureBox41.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox41.BackgroundImage = global::WordGame.Properties.Resources.H_KEYBOARD;
-            resources.ApplyResources(this.pictureBox41, "pictureBox41");
             this.pictureBox41.Name = "pictureBox41";
             this.pictureBox41.TabStop = false;
             this.pictureBox41.Click += new System.EventHandler(this.pictureBox41_Click);
             // 
             // pictureBox42
             // 
+            resources.ApplyResources(this.pictureBox42, "pictureBox42");
             this.pictureBox42.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox42.BackgroundImage = global::WordGame.Properties.Resources.J_KEYBOARD;
-            resources.ApplyResources(this.pictureBox42, "pictureBox42");
             this.pictureBox42.Name = "pictureBox42";
             this.pictureBox42.TabStop = false;
             this.pictureBox42.Click += new System.EventHandler(this.pictureBox42_Click);
             // 
             // pictureBox43
             // 
+            resources.ApplyResources(this.pictureBox43, "pictureBox43");
             this.pictureBox43.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox43.BackgroundImage = global::WordGame.Properties.Resources.K_KEYBOARD;
-            resources.ApplyResources(this.pictureBox43, "pictureBox43");
             this.pictureBox43.Name = "pictureBox43";
             this.pictureBox43.TabStop = false;
             this.pictureBox43.Click += new System.EventHandler(this.pictureBox43_Click);
             // 
             // pictureBox44
             // 
+            resources.ApplyResources(this.pictureBox44, "pictureBox44");
             this.pictureBox44.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox44.BackgroundImage = global::WordGame.Properties.Resources.L_KEYBOARD;
-            resources.ApplyResources(this.pictureBox44, "pictureBox44");
             this.pictureBox44.Name = "pictureBox44";
             this.pictureBox44.TabStop = false;
             this.pictureBox44.Click += new System.EventHandler(this.pictureBox44_Click);
             // 
             // pictureBox45
             // 
+            resources.ApplyResources(this.pictureBox45, "pictureBox45");
             this.pictureBox45.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox45.BackgroundImage = global::WordGame.Properties.Resources.Z_KEYBOARD;
-            resources.ApplyResources(this.pictureBox45, "pictureBox45");
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.TabStop = false;
             this.pictureBox45.Click += new System.EventHandler(this.pictureBox45_Click);
             // 
             // pictureBox46
             // 
+            resources.ApplyResources(this.pictureBox46, "pictureBox46");
             this.pictureBox46.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox46.BackgroundImage = global::WordGame.Properties.Resources.X_KEYBOARD;
-            resources.ApplyResources(this.pictureBox46, "pictureBox46");
             this.pictureBox46.Name = "pictureBox46";
             this.pictureBox46.TabStop = false;
             this.pictureBox46.Click += new System.EventHandler(this.pictureBox46_Click);
             // 
             // pictureBox47
             // 
+            resources.ApplyResources(this.pictureBox47, "pictureBox47");
             this.pictureBox47.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox47.BackgroundImage = global::WordGame.Properties.Resources.C_KEYBOARD;
-            resources.ApplyResources(this.pictureBox47, "pictureBox47");
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.TabStop = false;
             this.pictureBox47.Click += new System.EventHandler(this.pictureBox47_Click);
             // 
             // pictureBox48
             // 
+            resources.ApplyResources(this.pictureBox48, "pictureBox48");
             this.pictureBox48.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox48.BackgroundImage = global::WordGame.Properties.Resources.V_KEYBOARD;
-            resources.ApplyResources(this.pictureBox48, "pictureBox48");
             this.pictureBox48.Name = "pictureBox48";
             this.pictureBox48.TabStop = false;
             this.pictureBox48.Click += new System.EventHandler(this.pictureBox48_Click);
             // 
             // pictureBox49
             // 
+            resources.ApplyResources(this.pictureBox49, "pictureBox49");
             this.pictureBox49.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox49.BackgroundImage = global::WordGame.Properties.Resources.B_KEYBOARD;
-            resources.ApplyResources(this.pictureBox49, "pictureBox49");
             this.pictureBox49.Name = "pictureBox49";
             this.pictureBox49.TabStop = false;
             this.pictureBox49.Click += new System.EventHandler(this.pictureBox49_Click);
             // 
             // pictureBox50
             // 
+            resources.ApplyResources(this.pictureBox50, "pictureBox50");
             this.pictureBox50.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox50.BackgroundImage = global::WordGame.Properties.Resources.N_KEYBOARD;
-            resources.ApplyResources(this.pictureBox50, "pictureBox50");
             this.pictureBox50.Name = "pictureBox50";
             this.pictureBox50.TabStop = false;
             this.pictureBox50.Click += new System.EventHandler(this.pictureBox50_Click);
             // 
             // pictureBox51
             // 
+            resources.ApplyResources(this.pictureBox51, "pictureBox51");
             this.pictureBox51.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox51.BackgroundImage = global::WordGame.Properties.Resources.M_KEYBOARD;
-            resources.ApplyResources(this.pictureBox51, "pictureBox51");
             this.pictureBox51.Name = "pictureBox51";
             this.pictureBox51.TabStop = false;
             this.pictureBox51.Click += new System.EventHandler(this.pictureBox51_Click);
             // 
             // pictureBox52
             // 
+            resources.ApplyResources(this.pictureBox52, "pictureBox52");
             this.pictureBox52.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox52.BackgroundImage = global::WordGame.Properties.Resources.BACK_KEYBOARD;
-            resources.ApplyResources(this.pictureBox52, "pictureBox52");
             this.pictureBox52.Name = "pictureBox52";
             this.pictureBox52.TabStop = false;
             this.pictureBox52.Click += new System.EventHandler(this.pictureBox52_Click);
             // 
             // pictureBox53
             // 
+            resources.ApplyResources(this.pictureBox53, "pictureBox53");
             this.pictureBox53.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox53.BackgroundImage = global::WordGame.Properties.Resources.ENTER_KEYBOARD;
-            resources.ApplyResources(this.pictureBox53, "pictureBox53");
             this.pictureBox53.Name = "pictureBox53";
             this.pictureBox53.TabStop = false;
             this.pictureBox53.Click += new System.EventHandler(this.pictureBox53_Click);
